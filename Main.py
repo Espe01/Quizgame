@@ -5,7 +5,7 @@ __author__ = "Esperandieu Alfred"
 # I received helped from Andrew Krup
 # Andrew help explaining the try and except functions.
 # a code that is not very obvious is the try and accept functions.
-# A code that I used that isn't obvious is the "if function",sep,end functions.
+# codes that I used that isn't obvious is the "if function",sep,end functions.
 # I use this video for ideas and implementing the codes
 # https://www.youtube.com/watch?v=myJ36xIR7Yg
 # https://www.w3schools.com
@@ -15,8 +15,9 @@ __author__ = "Esperandieu Alfred"
 
 
 def main():
-    """ This is my Primary function to define functions and passing arguments.
-        """
+    """ This is my Primary function to define functions and passing 
+    arguments. Also, you can say is my dictionary for the def 
+    functions."""
     welcome()
     name = 10
     nom = 5
@@ -24,19 +25,18 @@ def main():
     num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19,
                 20, 21, 22, 23, 24, 25]
     print(num_list)
-    answer = "name1 + name2"
     sample_name(11, 15)
-
     age = 22
     calculating_age(age)
-    print(answer)
     # game = 10
     # price = 15
     game_price()
 
 
 """The purpose of this function is to introduce to the reader about my
-    quiz game."""
+    quiz game. Also, the examples that is included in the quiz game and 
+    answering the questions. At the end, you get a grade to see if you 
+    understand the math functions."""
 
 
 def welcome():
@@ -74,11 +74,14 @@ understanding basic operators and functions."""
 # the argument.
 
 
-""" I am using the using parameter to pass the argument."""
+""" I am using the def function with the parameter to pass the argument. 
+Letting the user answer the questions either true or false."""
 
 
 def sum_of_addition(name, nom):
-    """Finding out whether the function print out a True or False function."""
+    """Letting the user figure out whether the function print out a True or
+    False function. By typing in either true or false and it will tell you
+    the correct answer after pressing Enter."""
     print(name + nom)
     # using the "and" operator to test whether the statement is True or False
     # I received help from www.w3schools.com
@@ -167,8 +170,8 @@ def calculating_age(age):
     print("How old am I?", age)
     print("this quiz game is easy and understandable ", end=". ")
     print("\n")
-    print("lets begin with the examples first", end=". ")
-    print("Using the sep argument")
+    print("an example of using the while true, using 'try and except' before "
+          "the actual quiz.")
     # calculating_age(age)
     # Using the while true statement to prompt the user to input an answer.
     # It will also print in Excellent if you do it right.
@@ -228,7 +231,8 @@ def game_price():
     # the
     # answer
     print("Question 2.")
-    answer2 = input("Solve The Addition?\n100 + 100 \na. 150 \nb. 201 \nc. 200"
+    answer2 = input("Solve The Addition?\n100 + 100 \na. 150 \nb. 201 \nc. "
+                    "200"
                     "\nAnswer: ")
     if answer2 == "c":
         score += 1
