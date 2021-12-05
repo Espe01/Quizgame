@@ -15,8 +15,8 @@ __author__ = "Esperandieu Alfred"
 
 
 def main():
-    """ This is my Primary function to define functions and passing 
-    arguments. Also, you can say is my dictionary for the def 
+    """ This is my Primary function to define functions and passing
+    arguments. Also, you can say is my dictionary for the def
     functions."""
     welcome()
     name = 10
